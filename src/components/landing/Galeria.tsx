@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { X, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { galeria } from "@/content/site-content";
 
@@ -79,10 +79,7 @@ export function Galeria() {
       </div>
 
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent
-          className="max-w-5xl border-none bg-transparent p-0 shadow-none"
-          showCloseButton={false}
-        >
+        <DialogContent className="max-w-5xl border-none bg-transparent p-0 shadow-none">
           <DialogTitle className="sr-only">
             {photos[idx]?.caption}
           </DialogTitle>
@@ -95,14 +92,6 @@ export function Galeria() {
             <div className="mt-3 text-center text-sm text-primary-foreground">
               {photos[idx]?.caption}
             </div>
-            <button
-              type="button"
-              aria-label="Fechar"
-              onClick={() => setOpen(false)}
-              className="absolute -top-3 -right-3 rounded-full bg-background p-2 text-foreground shadow-lg hover:bg-muted"
-            >
-              <X className="h-5 w-5" />
-            </button>
             <button
               type="button"
               aria-label="Anterior"
