@@ -17,17 +17,8 @@ export function Solucao() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-10 lg:grid-cols-12 lg:items-center">
-          <div className="order-2 lg:order-1 lg:col-span-4">
-            <PhoneMockup
-              src={hero_.appScreenImage}
-              alt="Aplicativo Jovens do Velho Chico"
-              className="w-[240px]"
-            />
-          </div>
-
-          <div className="order-1 lg:order-2 lg:col-span-8">
-            <div className="grid gap-4 sm:grid-cols-2">
+        <div className="mt-16">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {solucao.modules.map((m, i) => (
                 <ScrollReveal key={m.title} delay={i * 60}>
                   <div className="group h-full rounded-2xl border border-border/70 bg-card p-6 transition-all hover:-translate-y-1 hover:border-river/30 hover:shadow-md">
