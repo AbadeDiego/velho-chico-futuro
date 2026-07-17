@@ -1,7 +1,6 @@
 import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { PhoneMockup } from "./PhoneMockup";
-import { ctaFinal, ctaLabel, hero_ } from "@/content/site-content";
+import { ctaFinal, ctaLabel } from "@/content/site-content";
 
 export function CTAFinal() {
   return (
@@ -16,30 +15,21 @@ export function CTAFinal() {
             aria-hidden="true"
             className="absolute -bottom-32 -left-16 h-80 w-80 rounded-full bg-river/40 blur-3xl"
           />
-          <div className="relative grid items-center gap-10 lg:grid-cols-12">
-            <div className="lg:col-span-8">
-              <h2 className="font-display text-3xl font-bold leading-tight sm:text-4xl md:text-5xl">
-                {ctaFinal.title}
-              </h2>
-              <p className="mt-6 max-w-2xl text-base leading-relaxed text-primary-foreground/85 sm:text-lg">
-                {ctaFinal.text}
-              </p>
-              <div className="mt-8">
-                <Button
-                  size="lg"
-                  className="h-12 rounded-full bg-sertao px-6 text-accent-foreground hover:bg-sertao/90"
-                >
-                  <Download className="mr-2 h-4 w-4" />
-                  {ctaLabel}
-                </Button>
-              </div>
-            </div>
-            <div className="lg:col-span-4">
-              <PhoneMockup
-                src={hero_.appScreenImage}
-                alt="Aplicativo Jovens do Velho Chico"
-                className="w-[220px]"
-              />
+          <div className="relative mx-auto max-w-3xl text-center">
+            <h2 className="font-display text-3xl font-bold leading-tight sm:text-4xl md:text-5xl">
+              {ctaFinal.title}
+            </h2>
+            <p className="mt-6 text-base leading-relaxed text-primary-foreground/85 sm:text-lg">
+              {ctaFinal.text}
+            </p>
+            <div className="mt-8">
+              <Button
+                size="lg"
+                className="h-12 rounded-full bg-sertao px-6 text-accent-foreground hover:bg-sertao/90"
+              >
+                <Download className="mr-2 h-4 w-4" />
+                {ctaLabel}
+              </Button>
             </div>
           </div>
         </div>
