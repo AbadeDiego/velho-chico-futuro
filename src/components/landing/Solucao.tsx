@@ -1,6 +1,5 @@
 import { ScrollReveal } from "./ScrollReveal";
-import { PhoneMockup } from "./PhoneMockup";
-import { solucao, hero_ } from "@/content/site-content";
+import { solucao } from "@/content/site-content";
 
 export function Solucao() {
   return (
