@@ -1,6 +1,5 @@
 import { Download, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { PhoneMockup } from "./PhoneMockup";
 import { hero_, ctaLabel } from "@/content/site-content";
 
 function scrollTo(id: string) {
@@ -73,26 +72,17 @@ export function Hero() {
         </div>
 
         <div className="lg:col-span-5">
-          <div className="relative">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-border/60 bg-muted shadow-xl">
-              <img
-                src={hero_.image}
-                alt="Jovens do Sertão do São Francisco reunidos ao entardecer com um celular"
-                className="h-full w-full object-cover"
-                width={1600}
-                height={1200}
-                fetchPriority="high"
-                decoding="async"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-graphite/40 via-transparent to-transparent" />
-            </div>
-            <div className="absolute -bottom-8 -left-6 hidden sm:block md:-left-10">
-              <PhoneMockup
-                src={hero_.appScreenImage}
-                alt="Tela do aplicativo Jovens do Velho Chico"
-                className="w-[180px] md:w-[200px]"
-              />
-            </div>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-border/60 bg-muted shadow-xl">
+            <img
+              src={hero_.image}
+              alt="Jovens do Sertão do São Francisco reunidos ao entardecer"
+              className="h-full w-full object-cover"
+              width={1600}
+              height={1200}
+              fetchPriority="high"
+              decoding="async"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-graphite/40 via-transparent to-transparent" />
           </div>
         </div>
       </div>
