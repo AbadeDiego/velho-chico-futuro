@@ -1,6 +1,5 @@
 import { Download, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { PhoneMockup } from "./PhoneMockup";
 import { hero_, ctaLabel } from "@/content/site-content";
 
 function scrollTo(id: string) {
