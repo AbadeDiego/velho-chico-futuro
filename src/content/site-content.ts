@@ -182,8 +182,8 @@ export const comoFunciona = {
 
 export const metas = {
   eyebrow: "Metas de impacto",
-  title: "O que buscamos alcançar",
-  note: "Metas do projeto — serão substituídas por dados efetivamente comprovados ao longo da execução.",
+  title: "O que alcançamos",
+  note: "Conquistas alcançadas por meio de inovação, colaboração e impacto social.",
   items: [
     { value: 300, suffix: "", label: "Jovens mobilizados" },
     { value: 150, suffix: "", label: "Jovens cadastrados na plataforma" },
@@ -195,7 +195,7 @@ export const metas = {
     { value: 5, suffix: "", label: "Comunidades quilombolas envolvidas" },
   ],
   quote:
-    "Cada indicador representa uma oportunidade de fortalecer trajetórias, gerar renda e manter vivas as identidades do território.",
+    "Uma trajetória construída com inovação, parcerias estratégicas e resultados que transformam jovens e territórios.",
 };
 
 export const impactos = {
