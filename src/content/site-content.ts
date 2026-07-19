@@ -22,7 +22,7 @@ import {
 } from "lucide-react";
 
 import hero from "@/assets/hero.jpg";
-import sertao from "@/assets/sertao.jpg";
+import sertao from "@/assets/sertao.png";
 import oficina from "@/assets/oficina.jpg";
 import jovemApp from "@/assets/jovem-app.jpg";
 import agricultura from "@/assets/agricultura.jpg";
