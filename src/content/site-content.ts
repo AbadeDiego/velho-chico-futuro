@@ -27,7 +27,7 @@ import oficina from "@/assets/oficina.jpg";
 import jovemApp from "@/assets/jovem-app.jpg";
 import agricultura from "@/assets/agricultura.jpg";
 import cultura from "@/assets/cultura.jpg";
-import rio from "@/assets/rio.jpg";
+import canyon from "@/assets/canyon.png";
 import juventude from "@/assets/juventude.jpg";
 import dep1 from "@/assets/dep1.jpg";
 import dep2 from "@/assets/dep2.jpg";
@@ -40,7 +40,7 @@ export const images = {
   jovemApp,
   agricultura,
   cultura,
-  rio,
+  canyon,
   juventude,
   dep1,
   dep2,
@@ -223,7 +223,7 @@ export const galeria = {
   subtitle: "Território, juventude, cultura e tecnologia em movimento.",
   photos: [
     { src: oficina, alt: "Oficina em comunidade quilombola", caption: "Oficina formativa em comunidade quilombola", span: "wide" },
-    { src: rio, alt: "Rio São Francisco visto de cima", caption: "O Velho Chico visto de cima", span: "tall" },
+    { src: canyon, alt: "Cânion do Velho Chico visto de cima", caption: "O Cânion do Velho Chico visto de cima", span: "tall" },
     { src: juventude, alt: "Jovens do território reunidos", caption: "Juventude do território", span: "" },
     { src: cultura, alt: "Manifestação cultural quilombola", caption: "Cultura e identidade viva", span: "tall" },
     { src: agricultura, alt: "Jovens em atividade agrícola", caption: "Atividades produtivas no Sertão", span: "wide" },
