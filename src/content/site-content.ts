@@ -25,7 +25,7 @@ import hero from "@/assets/hero.jpg";
 import sertao from "@/assets/sertao.png";
 import oficina from "@/assets/oficina.jpg";
 import jovemApp from "@/assets/jovem-app.jpg";
-import agricultura from "@/assets/agricultura.jpg";
+import agricultura from "@/assets/agricultura.png";
 import cultura from "@/assets/cultura.png";
 import canyon from "@/assets/canyon.png";
 import juventude from "@/assets/juventude.jpg";
