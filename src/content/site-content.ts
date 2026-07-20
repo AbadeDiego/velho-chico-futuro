@@ -26,7 +26,7 @@ import sertao from "@/assets/sertao.png";
 import oficina from "@/assets/oficina.jpg";
 import jovemApp from "@/assets/jovem-app.jpg";
 import agricultura from "@/assets/agricultura.jpg";
-import cultura from "@/assets/cultura.jpg";
+import cultura from "@/assets/cultura.png";
 import canyon from "@/assets/canyon.png";
 import juventude from "@/assets/juventude.jpg";
 import dep1 from "@/assets/dep1.jpg";
