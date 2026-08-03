@@ -47,7 +47,7 @@ export function Depoimentos() {
           ))}
         </div>
         <p className="mt-6 text-center text-xs text-muted-foreground">
-          Conteúdo provisório — será substituído por depoimentos reais do projeto.
+          {"\n"}
         </p>
       </div>
     </section>
